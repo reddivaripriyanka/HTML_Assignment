@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home page</title>
+</head>
+<body>
+    <center>
+        <h1 align=center>Registration form</h1>
+    <form>
+       First Name:<br>
+        <input type="text" name="firstname"  placeholder="First name" pattern="[A-Za-z]{0,25}" required><br>
+        <br>
+        Last Name:<br>
+        <input type="text" name="lastname"   placeholder="  Last name" pattern="[A-Za-z]{0,25}" required<br>
+        <br>
+        Address:<br>
+        <textarea rows="4" cols="30"  pattern="[A-Za-z0-9@!#:]{0,50}" required> 
+        </textarea>
+        <br>
+        Email id:<br>
+        <input type="email" name="Emailid"  placeholder="Enter valid email address" required><br> 
+        <br>
+        Cities:<br>
+        <select name="cities" required>
+                <option value="">Select</option>
+                <option value="Chittoor">Chittoor</option>
+                <option value="Tirupathi">Tirupathi</option>
+                <option value="Banglore">Banglore</option>
+                <option value="Chennai">Chennai</option>
+              </select>
+              <br>
+              <br>
+              States:<br>
+        <select name="states" required>
+                <option value="">Select</option>
+                <option value="Andrapradesh">Andrapradesh</option>
+                <option value="karnataka">karnataka</option>
+                <option value="Maharastra">Maharastra</option>
+                <option value="Tamilnadu">Tamilnadu</option>
+              </select>
+              <br>
+              <br>
+              University Branch name:<br>
+              <input type="text" name="University branch name"  placeholder="university branch name">
+                  <br><br>
+        Phone Number:<br>
+        <input type="text" name="phonenumber"  placeholder="Enter valid phone number" pattern="[0-9]{10}" required>
+        <br>
+        <br>
+        Enrolled course:<br>
+        <input type="text" name="Enrolled course"  placeholder="Enrolled course" pattern="[A-Za-z0-9]{5}" required><br>
+             <br>
+        Date of test:<br>
+         <input type="date" name="bday" requird>
+         <br><br>
+         Written Test Marks:<br>
+         <input type="text" name="Writtentext" pattern="[50-100]{2,3}" required><br>
+        <br>
+        <br>
+        <input type="submit" 
+        <br>
+    </form>
+</center>
+</body>
+</html>
